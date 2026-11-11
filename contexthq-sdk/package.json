@@ -1,0 +1,24 @@
+{
+  "name": "@contexthq/sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for ContextHQ — AI-ready wallet context",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "contexthq",
+    "wallet",
+    "blockchain",
+    "ai",
+    "context",
+    "on-chain",
+    "web3"
+  ]
+}
